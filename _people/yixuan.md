@@ -10,15 +10,25 @@ name: "Yixuan"
 section: postdoc
 role: "Postdoc"
 affiliation: ""
-photo: ""
+photo: "assets/images/Yixuan.jpeg"
 external_profile: ""
-email: ""
+email: "yixuan.xie@bristol.ac.uk"
 website: ""
 scholar: ""
 twitter: ""
-research_interests:
-  - "Dust Cycle"
-  - "Methane"
+Bio : "I am a postdoc at the Paleo Modelling Group, working on dust cycle and
+methane modelling in past climates."
 ---
+
 <!-- TODO: replace with a real bio -->
-I am a postdoc at the Paleo Modelling Group.
+
+
+## Education
+
+- PhD in XXX, University of YYY
+- MSc in ZZZ, University of AAA
+  
+
+## Publications
+
+Gave an invited talk at the XXX conference in 2025 about...
