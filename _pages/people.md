@@ -31,7 +31,11 @@ sections:
     {% endif %}
       <div class="person-photo">
         {% if person.photo and person.photo != "" %}
+        {% if person.photo contains "://" %}
         <img src="{{ person.photo }}" alt="{{ person.name }}">
+        {% else %}
+        <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+        {% endif %}
         {% else %}
         <i class="ti ti-user placeholder-icon"></i>
         {% endif %}

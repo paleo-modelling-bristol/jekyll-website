@@ -24,7 +24,11 @@ layout: default
   <div>
     <div class="profile-photo">
       {% if page.photo and page.photo != "" %}
+      {% if page.photo contains "://" %}
       <img src="{{ page.photo }}" alt="{{ page.name }}">
+      {% else %}
+      <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
+      {% endif %}
       {% endif %}
     </div>
     <div class="profile-links">

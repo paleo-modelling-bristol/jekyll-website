@@ -10,24 +10,25 @@ name: "Yixuan"
 section: postdoc
 role: "Postdoc"
 affiliation: ""
-photo: "assets/images/Yixuan.jpeg"
+# photo: paste a full image URL (e.g. a Google Drive link), or a local path
+# starting with /assets/images/... (put the image file there first).
+photo: "/assets/images/Yixuan.jpeg"
 external_profile: ""
 email: "yixuan.xie@bristol.ac.uk"
 website: ""
 scholar: ""
 twitter: ""
-Bio : "I am a postdoc at the Paleo Modelling Group, working on dust cycle and
-methane modelling in past climates."
+research_interests:
+  - "Dust Cycle"
+  - "Methane"
 ---
-
-<!-- TODO: replace with a real bio -->
-
+I am a postdoc at the Paleo Modelling Group, working on dust cycle and
+methane modelling in past climates.
 
 ## Education
 
 - PhD in XXX, University of YYY
 - MSc in ZZZ, University of AAA
-  
 
 ## Publications
 
