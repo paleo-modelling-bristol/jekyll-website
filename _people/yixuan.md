@@ -10,7 +10,7 @@ name: "Yixuan"
 section: postdoc
 role: "Postdoc"
 affiliation: ""
-photo: ""
+photo: "assets/images/Yixuan.jpeg"
 external_profile: ""
 email: "yixuan.xie@bristol.ac.uk"
 website: ""
